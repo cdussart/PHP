@@ -1,0 +1,2 @@
+<?$b=fscanf;$b($a=STDIN,"%d%*d%*d%*d%d",$c,$d);for(;$i++<$c-1;){$b($a,"%d%d",$e,$f);$g[$e]=$f;}$g[$c-1]=$d;for(;$b($a,"%d%d%s",$h,$i,$j);){echo ($i!=$g[$h]&&$j!=($i<$g[$h]?"RIGHT":"LEFT")?"BLOCK":"WAIT")."
+";}
